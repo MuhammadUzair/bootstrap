@@ -91,7 +91,15 @@ footer
 }
 
 /*///////////////////////////////
-                                    login page    /////////////////////////////////////////////////////////////*/
+                                    onbordind page    /////////////////////////////////////////////////////////////*/
+
+.btn-select
+{
+  background-color: #24c2ad;
+  border: solid 2px #24c2ad;
+  color: black !important;
+
+}
 
 
 
