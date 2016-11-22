@@ -1,0 +1,92 @@
+body{
+  
+    font-family: Arial, sans-serif,Calibri, Candara, Segoe, 'Segoe UI', Optima;
+}
+
+.navbar
+{
+ background-color: #4a4a4a;
+  color: #ffffff;
+  border: solid 0.5px #c7c7c7;
+  border: none;
+  border-radius: 0;
+
+}
+
+.logoFont
+{
+  font-size: 20px;
+  color:#ffffff !important;
+}
+.butn:hover{color: black !important; background-color: #ffffff !important;}
+
+.whitetext{color: #ffffff !important;background-color: black !important;}
+
+.text{color: #ffffff !important;}
+
+.primarycolorText{color: #24c2ad !important;}
+
+.navbar-nav>li>a {
+ color: #ffffff !important;
+}
+
+
+.main-content
+{
+
+  margin-top: 124px;
+  box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
+  font-size: 18px;
+
+
+}
+
+.content-heading
+{
+  font-size: 22px;
+   color: #4a4a4a;
+   font-weight: 600;
+
+}
+.cross-icon
+{
+  float: right;
+  color: #DCD9DB;
+
+}
+
+.optionbtn
+{
+
+  border-radius: 50px;
+  border: solid 2px #565656;
+  font-size: 16px;
+  margin-bottom: 65px;
+  color: #767676;
+
+}
+.optionbtnColor
+{
+
+  border-radius: 50px;
+  border: solid 2px #24c2ad;
+  font-size: 16px;
+  color: #767676;
+  
+}
+
+footer
+{
+  margin-top: 400px;
+  background-color: #24c2ad;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.copyright{}
+.footer-heading{
+   font-size: 18px;
+
+}
+
+
