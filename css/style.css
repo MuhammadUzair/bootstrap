@@ -37,6 +37,7 @@ body{
   margin-top: 124px;
   box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
   font-size: 18px;
+  background-color: #ffffff;
 
 
 }
@@ -83,10 +84,15 @@ footer
   font-size: 12px;
 }
 
-.copyright{}
+
 .footer-heading{
    font-size: 18px;
 
 }
+
+/*///////////////////////////////
+                                    login page    /////////////////////////////////////////////////////////////*/
+
+
 
 
