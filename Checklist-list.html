@@ -1,0 +1,178 @@
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!--script src='custom.js'></script-->
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+				<a class="navbar-brand logoFont" href="#">ZINC</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting</span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Change Password</a></li>
+							<li><hr></li>
+					   	<li><a href="#">Help</a></li>
+						</ul>
+					</li>
+
+					<li>
+						<a href="#" classs="text">Logout </span></a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+
+
+
+	<div class="container-fluid">
+
+
+		<div class="row">
+
+			<section class=" col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-8 col-lg-6 col-lg-offset-2
+                 WithoutBorder2">
+
+      
+
+                		<div class="text-right">
+						Your tasks are 50% complete<br>
+							<div class="progress">
+							  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							    <span class="sr-only">60% Complete</span>
+							  </div>
+							</div>
+					   </div>
+
+					<span class="">Your Checklist</span>
+					<input type="checkbox">Show removed tasks<br><br><br>
+
+				
+
+
+
+   <div class="row">
+
+		
+
+			
+
+
+    </div><!--row end -->
+
+
+
+				<div class="row">
+			
+
+					 <div class="panel-group col-xs-12 col-md-9" id="accordion">
+
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <div class="panel-title checkBoxItem">
+						        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+
+						        	<i class="indicator glyphicon glyphicon-chevron-down  pull-left"></i>
+						          <span class="listHeading">Learn about financial status </span>					      
+						        </a>
+						         <span class="smallBox pull-right">/</span>
+						         <span class="smallBox pull-right">?</span>					        
+						      </div>
+						      
+						    </div>
+						    <div id="collapseOne" class="panel-collapse collapse in">
+						      <div class="panel-body">
+						     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						      </div>
+						    </div>
+						  </div>
+
+						</div><!--collapse panel end-->
+
+
+		
+
+
+
+				  <div class="col-xs-6 col-md-3 friendsBox">
+				  	<span class="friendHeading">Tell your friends!</span><br><br>
+				  	<p>If you find this helpful, tell your friends – we are early stage and growing and want to help as many people as possible!</p>
+
+
+				  </div><!--Tell your friends div end -->
+
+
+				</div><!--row end -->
+
+
+
+			</section>
+			<!--main-content section close-->
+		</div>
+		<!--row end -->
+
+
+		<div class="row">
+
+			<footer class="text-center col-lg-12">
+				<span class="footer-heading">ZINC</span><br>
+				<span class="copyright"> Copy Right 2016</span
+     </footer>
+
+ </div><!--row end -->
+
+
+</div><!-- /.container-fluid --> 
+
+
+
+
+<!-- collapse panel script --> 
+<script type="text/javascript">
+
+
+function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.indicator")
+        .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+}
+$('#accordion').on('hidden.bs.collapse', toggleChevron);
+
+
+
+</script>
+
+
+</body>
+</html>

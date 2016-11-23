@@ -3,11 +3,7 @@ body
   background-image: url('../img/bg.jpg');
  
 }
- .label
-  {
-    font-size: 18px;
-    color: black;
-  }  
+
 .login-field
 {
   border-radius: 4px;
@@ -41,7 +37,6 @@ body
 }
 .content-heading{margin-left: 30%;}
 
-.loginpad{padding-left: 15%;}
 
 .forgotSubHeading
 {

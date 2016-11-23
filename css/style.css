@@ -132,4 +132,114 @@ footer
 }
 
 
+/*///////////////////////////////
+                                     change password    /////////////////////////////////////////////////////////////*/
 
+.loginpad{padding-left: 15%;}
+
+.headingPading{margin-left: 30%;}
+
+.bodyText{font-size: 16px;}
+
+.passChangeBtn
+{
+  background-color: #24c2ad;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.WithoutBorder
+{
+
+  margin-top: 124px;
+  font-size: 18px;
+  background-color: #ffffff;
+
+
+}
+
+/*///////////////////////////////
+                                    Check-list   /////////////////////////////////////////////////////////////*/
+
+
+.WithoutBorder2
+{
+
+  margin-top: 124px;
+  font-size: 14px;
+  background-color: #ffffff;
+
+
+}
+
+
+.listHeading
+{
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.panel-default>.panel-heading
+{
+
+  background-color: #fffafa;
+  box-shadow: 0 4px 8px 0 rgba(225, 225, 225, 0.64);
+  border: solid 1px #f0f0f0;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #4a4a4a !important;
+
+}
+
+.panel-default>.panel-heading
+{
+
+   background-color: #fffafa;
+   border-radius: 5px;
+   border-style: solid;
+    border-left: 5px solid  #fb935c;
+   
+}
+.smallBox
+{
+ width: 16px;
+  height: 18px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #b2b2b2;
+  border: 2px solid #b2b2b2;
+  margin-right: 10px;
+  padding-left: 2px;
+}
+
+.friendsBox
+{
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
+ font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  color: #4a4a4a;
+  padding: 5px;
+}
+.friendHeading
+{
+    font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #4a4a4a;
+}
