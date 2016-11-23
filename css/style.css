@@ -93,11 +93,34 @@ footer
 /*///////////////////////////////
                                     onbordind page    /////////////////////////////////////////////////////////////*/
 
-.btn-select
+.btn-hover
+{
+  background-color: #ddfffb;
+  border: solid 2px #24c2ad;
+  color: black !important;
+
+}
+.btn-selected
 {
   background-color: #24c2ad;
   border: solid 2px #24c2ad;
   color: black !important;
+
+}
+.login-btn
+{
+  background-color: #24c2ad;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+.arrow
+{
+  width: 24px;
+  height: 3px;
 
 }
 
