@@ -179,8 +179,17 @@ footer
 
 .listHeading
 {
-  font-size: 18px;
+    font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #4a4a4a;
   margin-left: 20px;
+}
+.glyphicon-chevron-down
+{
+  font-size: 12px;
+  color: #4a4a4a;
 }
 
 .panel-default>.panel-heading
@@ -202,9 +211,21 @@ footer
 
    background-color: #fffafa;
    border-radius: 5px;
-   border-style: solid;
-    border-left: 5px solid  #fb935c;
+
    
+}
+.task
+{
+   font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #4a4a4a;
+}
+.orangeborder
+{
+     border-style: solid;
+    border-left: 5px solid  #fb935c;
 }
 .smallBox
 {
@@ -218,6 +239,38 @@ footer
   border: 2px solid #b2b2b2;
   margin-right: 10px;
   padding-left: 2px;
+}
+.smallBox2
+{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 10px;
+
+}
+
+.smallBox3
+{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: black;
+  border: 1px solid #24c2ad;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin-left: 5px;
+  color: #24c2ad;
+
 }
 
 .friendsBox
@@ -242,4 +295,80 @@ footer
   letter-spacing: -0.2px;
   text-align: center;
   color: #4a4a4a;
+}
+.progress{
+    border-radius: 20px;
+  background-color: #ffffff;
+}
+.progress-bar 
+{
+  background-color: #24c2ad;
+
+
+}
+.hrCheck
+{
+  margin-top: 207px;
+}
+
+.queryBox
+{
+   border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 15px 0 rgba(225, 225, 225, 0.64);
+  color: #4a4a4a;
+  margin-top: 30px;
+  padding: 38px;
+
+}
+.userQueryHeading
+{
+  font-size: 20px;
+
+}
+.typingBox
+{
+   height:30%; 
+   border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #dddddd;
+  padding: 25px;
+  color: #dddddd;
+}
+.sndQueryBtn
+{
+  background-color: #24c2ad;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+  margin-top: -10px;
+  padding: 20px;
+
+}
+.checklistHeading
+{
+  font-size: 18px;
+}
+#checkbox
+{
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #4a4a4a;
+}
+.showtask
+{
+    font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #4a4a4a;
+}
+#definitionBox
+{
+    background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 #e2e2e2;
+  border: solid 1px #dddddd;
 }
