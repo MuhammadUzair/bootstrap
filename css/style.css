@@ -19,6 +19,7 @@ body{
   font-size: 20px;
   color:#ffffff !important;
 }
+.butn{min-width: 150px;}
 .butn:hover{color: black !important; background-color: #ffffff !important;}
 
 .whitetext{color: #ffffff !important;background-color: black !important;}
@@ -125,6 +126,10 @@ footer
 
 }
 
+.onbordingSubheading
+{
+  font-size: 18px !important;
+}
 
 
 
