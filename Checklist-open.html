@@ -3,6 +3,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -35,7 +36,7 @@
 						<a href="#" class="dropdown-toggle text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting</span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Change Password</a></li>
-							<li><hr></li>
+							<li><hr class"navHr"></li>
 					   	<li><a href="#">Help</a></li>
 						</ul>
 					</li>
@@ -58,43 +59,44 @@
 
 		<div class="row">
 
-					<section class=" col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-8 col-lg-6 col-lg-offset-2
-		                 WithoutBorder2">
+					<section class=" col-xs-offset-2 col-xs-8 col-sm-8 col-md-10 col-lg-10
+		                 checklistContent">
 
-		      
-
-		                		<div class="pull-right task">
-								Your tasks are 50% complete<br>
-									
-				                       <div class="progress" >
-										      <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-										    </div>
-
-									   </div>
-
-							</div>
-
-
-
-							<span class="checklistHeading">Your Checklist</span>
-							<input type="checkbox" id="checkbox">
-							<span class="showtask">Show removed tasks</span><br>
 
 						<div class="row">
 					
 
-							 <div class="panel-group col-xs-12 col-md-9" id="accordion">
+							 <div class="panel-group col-xs-12 col-md-8 col-lg-8" id="accordion">
+
+
+							 	<div class="pull-right task">
+											Your tasks are 50% complete<br>
+												
+							                       <div class="progress" >
+													      <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+													    </div>
+
+												   </div>
+
+									      </div>
+		 
+
+
+									<span class="checklistHeading">Your Checklist</span>
+									<input type="checkbox" id="checkbox">
+									<span class="showtask">Show removed tasks</span><br><br><br>
+
 
 								  <div class="panel panel-default orangeborder">
-								    <div class="panel-heading ">
-								      <div class="panel-title checkBoxItem">
+								    <div class="panel-heading main-panel">
+								      <div class="panel-title">
 								        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 
 								        	<i class="indicator glyphicon glyphicon-chevron-down down pull-left"></i>
 								          <span class="listHeading">Learn about financial status </span>					      
 								        </a>
-								         <span class="smallBox pull-right">/</span>
-								         <span class="smallBox pull-right">?</span>					        
+								         <span class="operation-icon pull-right">/</span>
+								         <span class="glyphicon glyphicon-trash operation-icon2  pull-right"></span>			        
 								      </div>
 								      
 								    </div>
@@ -108,6 +110,9 @@
 									        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et suscipit justo, vel tincidunt nisi. Curabitur maximus justo quis justo eleifend molestie. Morbi mattis auctor dapibus. Integer aliquet sapien quis orci fringilla, condimentum laoreet augue ultrices. Nunc vel sagittis est. Aliquam ultrices neque ut est interdum,vitae aliquet <span class="primarycolorText">diam</span> consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed viverra odio in dui accumsan tempus. Morbi aliquam ultricies elit sit amet dictum. Duis ante <span class="primarycolorText">magna</span>, ornare quis velit et, aliquet tempus neque. Integer lobortis velit condimentum lorem vestibulum, a mattis libero cursus. Ut sit amet maximus tortor, sed feugiat neque. Donec in massa non sem accumsan facilisis in in lectus. Fusce nec vestibulum felis. Donec interdum lacus sit amet sem cursus, imperdiet convallis lorem lacinia. Maecenas finibus nisl scelerisque, ultrices felis nec, ultricies ligula.</p>		
 
 									        <hr >What is financial status? <span class="pull-right">+</span>
+									        <hr >What is financial status? <span class="pull-right">+</span>
+									        <hr >What is financial status? <span class="pull-right">+</span>
+
 									      </div>
 								    </div>
 								  </div>
@@ -115,14 +120,14 @@
 
 								    <div class="panel panel-default">
 								    <div class="panel-heading">
-								      <div class="panel-title checkBoxItem">
+								      <div class="panel-title ">
 								        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 
 								        	<i class="indicator glyphicon glyphicon-chevron-down  pull-left"></i>
 								          <span class="listHeading">Learn about financial status </span>					      
 								        </a>
-								         <span class="smallBox pull-right">/</span>
-								         <span class="smallBox pull-right">?</span>					        
+								         <span class="operation-icon pull-right">/</span>
+								         <span class="glyphicon glyphicon-trash operation-icon2  pull-right"></span>				        
 								      </div>
 								      
 								    </div>
@@ -140,14 +145,14 @@
 
 								    <div class="panel panel-default">
 								    <div class="panel-heading">
-								      <div class="panel-title checkBoxItem">
+								      <div class="panel-title">
 								        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
 
 								        	<i class="indicator glyphicon glyphicon-chevron-down  pull-left"></i>
 								          <span class="listHeading">File taxes</span>					      
 								        </a>
-								         <span class="smallBox pull-right">/</span>
-								         <span class="smallBox pull-right">?</span>					        
+								         <span class="operation-icon pull-right">/</span>
+								         <span class="glyphicon glyphicon-trash operation-icon2  pull-right"></span>			        
 								      </div>
 								      
 								    </div>
@@ -170,11 +175,11 @@
 
 
 
-						  <div class="col-xs-6 col-md-3 friendsBox">
+						 <div class="col-xs-12  col-sm-4 col-md-2 friendsBox">
 						  	<span class="friendHeading">Tell your friends!</span><br><br>
 						  	<p>If you find this helpful, tell your friends – we are early stage and growing and want to help as many people as possible!</p>
-						  	 <span class="smallBox2 ">?</span>	
-						  	  <span class="smallBox2 ">?</span>	
+						  	<i class="fa fa-facebook-official social-icon"></i>
+						  	<i class="fa fa-twitter-square social-icon2"></i>
 
 
 						  </div><!--Tell your friends div end -->
@@ -194,18 +199,19 @@
 		                 <span class="userQueryHeading">Have more questions?</span>
 
 		                 <p >We are quickly building other tools to help you navigate the real world.<br /><br />
-		                 	What other “real life” questions do you have? Please list any questions or subject areas that you are looking for information.</p>
+
+		                 	<strong> What other “real life” questions do you have? Please list any questions or subject areas that you are looking for information.</strong></p>
 
 		                 	<div class="row">
 		              
-		                 	<div class="typingBox col-xs-8 col-sm-8 col-md-6 col-lg-12">
+		                 	<div class="typingBox col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				                 	Begin typing…
 				                 </div><br /><br />
 
 		                 	</div><!--row end -->
 
 		                 	<div class="row">
-								<button class="col-xs-8 col-lg-12 sndQueryBtn">Send your question(s)!</button>
+								<button class="col-xs-12 col-lg-12 sndQueryBtn">Send your question(s)!</button>
 							</div><!--row end -->
 
 		                 </section>

@@ -2,15 +2,14 @@ body{
   
     font-family: Arial, sans-serif,Calibri, Candara, Segoe, 'Segoe UI', Optima;
 }
-
 .navbar
 {
- background-color: #4a4a4a;
+  background-color: #4a4a4a;
   color: #ffffff;
   border: solid 0.5px #c7c7c7;
   border: none;
   border-radius: 0;
-  padding-top: 10px;
+ 
 
 }
 
@@ -18,9 +17,16 @@ body{
 {
   font-size: 20px;
   color:#ffffff !important;
+  padding: 20px 0  22.6px 60px;
+
+
 }
-.butn{min-width: 150px;}
-.butn:hover{color: black !important; background-color: #ffffff !important;}
+.butn{
+  min-width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.butn:hover{color: black !important; background-color: #DDFFFB !important;}
 
 .whitetext{color: #ffffff !important;background-color: black !important;}
 
@@ -36,28 +42,40 @@ body{
 .main-content
 {
 
-  margin-top: 124px;
+  margin-top: 83px;
   box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
-  font-size: 18px;
+  font-size: 24px;
   background-color: #ffffff;
-
-
+  color: #4a4a4a;
 }
 
 .content-heading
 {
-  font-size: 22px;
-   color: #4a4a4a;
-   font-weight: 600;
+   font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  text-align: center;
+  color: #4a4a4a;
+
+
 
 }
 .cross-icon
 {
-  float: right;
-  color: #DCD9DB;
-
+  font-size: 12px;
+  color: #cccccc;
+  margin-top: 10px;
+  margin-right: 10.5px;
 }
 
+.questionNo
+{
+  margin-top: 34px;
+
+}
 .optionbtn
 {
 
@@ -77,24 +95,55 @@ body{
   color: #767676;
   
 }
+.skip
+{
+   font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #4a4a4a;
+  text-decoration: underline;
 
+
+}
+.skip:hover
+{
+ 
+  color: #4a4a4a;
+
+}
+.arrow{
+  font-size: 20px;
+
+}
 footer
 {
-  margin-top: 400px;
+  margin-top: 76px;
+  padding-top: 31px;
+  height: 112px;
   background-color: #24c2ad;
   color: #ffffff;
-  font-size: 12px;
+  font-size: 11px;
+
 }
 
 
 .footer-heading{
-   font-size: 18px;
+   font-size: 16px;
 
 }
 
 /*///////////////////////////////
                                     onbordind page    /////////////////////////////////////////////////////////////*/
+.butn:hover
+{
+  background-color: #ddfffb;
+  border: solid 2px #24c2ad;
+  color: black !important;
 
+}
 .btn-hover
 {
   background-color: #ddfffb;
@@ -117,6 +166,15 @@ footer
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 0.5px;
+  color: #ffffff;
+  border: none; 
+  border-radius: 0px;
+  margin-top: 15px;
+  padding: 21px 0 20px 0; 
+}
+.login-btn:hover
+{
+  background-color: #24c2ad;
   color: #ffffff;
 }
 .arrow
@@ -166,10 +224,10 @@ footer
                                     Check-list   /////////////////////////////////////////////////////////////*/
 
 
-.WithoutBorder2
+.checklistContent
 {
 
-  margin-top: 124px;
+  margin-top: 20px;
   font-size: 14px;
   background-color: #ffffff;
 
@@ -192,27 +250,20 @@ footer
   color: #4a4a4a;
 }
 
-.panel-default>.panel-heading
-{
 
-  background-color: #fffafa;
-  box-shadow: 0 4px 8px 0 rgba(225, 225, 225, 0.64);
-  border: solid 1px #f0f0f0;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  color: #4a4a4a !important;
-
-}
 
 .panel-default>.panel-heading
 {
 
-   background-color: #fffafa;
+   background-color: #ffffff;
    border-radius: 5px;
 
    
+}
+.main-panel
+{
+
+   background-color: #fffafa !important;   
 }
 .task
 {
@@ -227,7 +278,7 @@ footer
      border-style: solid;
     border-left: 5px solid  #fb935c;
 }
-.smallBox
+.operation-icon
 {
  width: 16px;
   height: 18px;
@@ -237,24 +288,35 @@ footer
   font-stretch: normal;
   color: #b2b2b2;
   border: 2px solid #b2b2b2;
-  margin-right: 10px;
   padding-left: 2px;
 }
-.smallBox2
+.operation-icon2 
 {
-  font-size: 16px;
+ width: 16px;
+  height: 18px;
+  font-size: 12px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: -0.4px;
-  text-align: center;
-  color: black;
-  border: 1px solid black;
-  padding-left: 2px;
-  padding-right: 2px;
-  margin-left: 10px;
+  color: #b2b2b2;
 
 }
+
+.social-icon
+{
+  font-size: 20px;
+  padding-left: 20%;
+
+}
+.social-icon2
+{
+  font-size: 20px;
+  padding-left: 5%;
+
+
+}
+
+
 
 .smallBox3
 {
@@ -284,17 +346,19 @@ footer
   font-stretch: normal;
   line-height: 1.43;
   color: #4a4a4a;
+  margin-top: 60px;
   padding: 5px;
 }
 .friendHeading
 {
-    font-size: 18px;
+  font-size: 18px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: -0.2px;
   text-align: center;
   color: #4a4a4a;
+
 }
 .progress{
     border-radius: 20px;
