@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/login.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/custom.js"></script>
+	
 
 </head>
 
@@ -34,12 +34,12 @@
 
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
-						<a href="#" class="dropdown-toggle text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login</span></a>
+						<a href="#" class="dropdown-toggle right-nav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login</span></a>
 					
 					</li>
 
 					<li>
-						<a href="#" class="text sign-up">Sign up </span></a>
+						<a href="#" class="sign-up primarycolorText">Sign up </span></a>
 					</li>
 				</ul>
 			</div>
@@ -58,19 +58,31 @@
 
 			<section class="text-center col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-8 col-lg-offset-3 col-lg-5 main-content">
 
-				<i class="fa fa-times pull-right cross-icon" aria-hidden="true"></i>
+				<i class="fa fa-times pull-right cross-icon" aria-hidden="true"></i><br />
 
-				<span class="content-heading">Login</span><br /><br /><br />
+				<span class="login-heading">Login</span><br />
+
+					<span class="emailText pull-left">Email</span><br /><br />
+
+				<div class="row">
+					<input type="text" class="login-field col-xs-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8" placeholder="XXXXX@XXX.com">
+				</div>	<!--row end -->
 
 
-
-                 
-              
-			   <div class="row">
-					<button class="btn btn-default login-btn col-xs-12">Log me in!</button>
-
+				<span class="passText pull-left">Password</span><br />
+				
+				<div class="row">
+					<input type="password" class="login-field col-xs-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8" placeholder="********"><br /><br />
 				</div>
 				<!--row end -->
+				<u class="primarycolorText pull-left forgetLink">Forget Your Password?</u><br />
+
+				<div class="row">
+					<button class="login-btn col-xs-12">Log me in!</button>
+				</div>
+				<!--row end -->
+
+
 
 			</section>
 			<!--main-content section close-->

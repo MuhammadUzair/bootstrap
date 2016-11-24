@@ -26,11 +26,16 @@ body{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.butn:hover{color: black !important; background-color: #DDFFFB !important;}
+.butn:hover
+{
+  color: black !important; background-color: #DDFFFB !important;
+  }
+
+.butn:active{ background-color: #24c2ad !important;}
 
 .whitetext{color: #ffffff !important;background-color: black !important;}
 
-.text{color: #ffffff !important;}
+.right-nav{padding-top: 20px;}
 
 .primarycolorText{color: #24c2ad !important;}
 
@@ -38,6 +43,14 @@ body{
  color: #ffffff !important;
 }
 
+.sign-up
+{
+  border-radius: 2px;
+  border: solid 2px #24c2ad;
+ margin-right: 30px;
+ margin-top: 2px;
+
+}
 
 .main-content
 {
@@ -67,7 +80,7 @@ body{
 {
   font-size: 12px;
   color: #cccccc;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-right: 10.5px;
 }
 
@@ -193,7 +206,6 @@ footer
 /*///////////////////////////////
                                      change password    /////////////////////////////////////////////////////////////*/
 
-.loginpad{padding-left: 15%;}
 
 .headingPading{margin-left: 30%;}
 
@@ -438,7 +450,9 @@ footer
 }
 
 /*///////////////////////////////
+  
                                     Login  /////////////////////////////////////////////////////////////*/
+
 
 .login-heading
 {
@@ -449,5 +463,74 @@ footer
   letter-spacing: 0.7px;
   text-align: center;
   color: #4a4a4a;
-  padding-top: 48px;
+  margin-top: 48px;
 }
+
+.login-field
+{
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1.5px #4a4a4a;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 27px;
+
+}
+.forgot-heading
+{
+   font-size: 28px;
+  margin-top: 48px;
+
+}
+.forgotSubHeading
+{
+  font-size: 16px;
+   color: #A9A9A9 !important;
+   font-weight: 400;
+   margin-top: 12px;
+   margin-bottom: 20px;
+
+}
+.forgetLinks
+{
+  color: #ffffff;
+  margin-left: 40%;
+}
+.forgetLinks:hover
+{
+  color: #ffffff;
+}
+.emailText
+{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  margin-left: 15%;
+  margin-top: 41px;
+}
+.passText
+{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  margin-left: 15%;
+  margin-top: 10px;
+}
+.forgetLink
+{
+   font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  margin-left: 15%;
+  margin-bottom: 46px;
+}
+
+
