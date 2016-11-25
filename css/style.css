@@ -12,10 +12,13 @@ body{
  
 
 }
+.navbar-nav>li>a {
+ color: #ffffff !important;
+}
 
 .logoFont
 {
-  font-size: 20px;
+  font-size: 22px;
   color:#ffffff !important;
   padding: 20px 0  22.6px 60px;
 
@@ -28,10 +31,16 @@ body{
 }
 .butn:hover
 {
-  color: black !important; background-color: #DDFFFB !important;
+  color: #4a4a4a !important;
+  background-color: #DDFFFB !important;
   }
+.butn:active
+{
+ background-color: #24c2ad !important;
+}
 
-.butn:active{ background-color: #24c2ad !important;}
+
+.butn-active{ background-color: #24c2ad !important;}
 
 .whitetext{color: #ffffff !important;background-color: black !important;}
 
@@ -39,16 +48,51 @@ body{
 
 .primarycolorText{color: #24c2ad !important;}
 
-.navbar-nav>li>a {
- color: #ffffff !important;
+.beta
+{
+
+  margin-left: 69px;
+   margin-top: -10px;
+   font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  color: #24c2ad;
+}
+.beta:hover
+{
+  color: #24c2ad;
+  text-decoration: none;
 }
 
 .sign-up
 {
   border-radius: 2px;
   border: solid 2px #24c2ad;
- margin-right: 30px;
- margin-top: 2px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  height: 40px;
+  text-align: center;
+  letter-spacing: -0.4px;
+  color: #24c2ad;
+
+}
+.logInNav
+{
+
+   
+   margin-top: 15px;
+   font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  height: 40px;
+  text-align: center;
+
 
 }
 
@@ -62,6 +106,32 @@ body{
   color: #4a4a4a;
 }
 
+.forgot-content
+{
+
+  margin-top: 50px;
+   box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+}
+.login-content
+{
+
+  margin-top: 70px;
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+}
+.sign-up-content
+{
+
+  margin-top: 10px;
+  box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+}
 .content-heading
 {
    font-size: 24px;
@@ -71,6 +141,20 @@ body{
   line-height: 1.25;
   letter-spacing: -0.5px;
   text-align: center;
+  color: #4a4a4a;
+
+
+
+}
+.onbordind-heading
+{
+   font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+ margin-bottom: 40px;
   color: #4a4a4a;
 
 
@@ -115,9 +199,9 @@ body{
   font-style: normal;
   font-stretch: normal;
   letter-spacing: -0.3px;
-  text-align: center;
   color: #4a4a4a;
   text-decoration: underline;
+  margin-bottom: 15px;
 
 
 }
@@ -126,6 +210,10 @@ body{
  
   color: #4a4a4a;
 
+}
+.nextbtnMargin
+{
+  margin-top: 15px;
 }
 .arrow{
   font-size: 20px;
@@ -147,9 +235,41 @@ footer
    font-size: 16px;
 
 }
+.loginmarg
+{
+  margin-top: 120px;
 
+}
+.forgotmargin
+{
+  margin-top: 195px;
+
+}
+.SignmeFooter
+{
+  margin-top: 135px;
+
+}
+
+.onbordingFooter
+{
+  margin-top: 110px;
+
+}
 /*///////////////////////////////
+ 
+ 
                                     onbordind page    /////////////////////////////////////////////////////////////*/
+
+.onbordind-content
+{
+
+  margin-top: 30px;
+  box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
+  font-size: 24px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+}
 .butn:hover
 {
   background-color: #ddfffb;
@@ -178,11 +298,10 @@ footer
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
   color: #ffffff;
   border: none; 
   border-radius: 0px;
-  margin-top: 15px;
   padding: 21px 0 20px 0; 
 }
 .login-btn:hover
@@ -202,8 +321,28 @@ footer
   font-size: 18px !important;
 }
 
+.logout-navBtn
+{
+  color: #ffffff;
+  margin-top:21px;
+  margin-left: 70px;
+  margin-bottom: 22px;
+  font-size: 16px; 
+}
+.logout-navBtn
+{
+  color: #ffffff;
+  margin-top:21px;
+  margin-right:22px; 
+  font-size: 16px; 
+}
+.logoMargin
+{
+  margin-bottom: 8px;
+}
 
-/*///////////////////////////////
+
+/*/////////////////////////////// 70px 22px 30px;
                                      change password    /////////////////////////////////////////////////////////////*/
 
 
@@ -328,25 +467,6 @@ footer
 
 }
 
-
-
-.smallBox3
-{
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: -0.4px;
-  text-align: center;
-  color: black;
-  border: 1px solid #24c2ad;
-  padding-left: 1px;
-  padding-right: 1px;
-  margin-left: 5px;
-  color: #24c2ad;
-
-}
-
 .friendsBox
 {
   border-radius: 4px;
@@ -449,6 +569,15 @@ footer
   border: solid 1px #dddddd;
 }
 
+.hide
+{
+  display: none;
+}
+.show
+{
+  display: inline;
+}
+
 /*///////////////////////////////
   
                                     Login  /////////////////////////////////////////////////////////////*/
@@ -476,19 +605,39 @@ footer
   margin-bottom: 27px;
 
 }
+
+.form-control
+{
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1.5px #4a4a4a;
+  height: 50px;
+  margin-top: 10px;
+
+
+}
+
 .forgot-heading
 {
+   /*margin-top: 48px !important;*/
    font-size: 28px;
-  margin-top: 48px;
+  
 
 }
 .forgotSubHeading
 {
-  font-size: 16px;
-   color: #A9A9A9 !important;
-   font-weight: 400;
+ 
+   
    margin-top: 12px;
    margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.88;
+  letter-spacing: -0.3px;
+  text-align: center;
+  color: #4a4a4a;
 
 }
 .forgetLinks
@@ -511,6 +660,18 @@ footer
   margin-left: 15%;
   margin-top: 41px;
 }
+.signupText2
+{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  margin-left: 15%;
+ 
+}
+
 .passText
 {
   font-size: 14px;
@@ -520,7 +681,8 @@ footer
   letter-spacing: 0.4px;
   color: #4a4a4a;
   margin-left: 15%;
-  margin-top: 10px;
+  margin-top: 27px;
+  
 }
 .forgetLink
 {
@@ -531,6 +693,48 @@ footer
   letter-spacing: 0.4px;
   margin-left: 15%;
   margin-bottom: 46px;
+  margin-top: 12px;
 }
 
+.SignmeMargin
+{
+   margin-top: 70px;
+}
+/*///////////////////////////////
+  
+                                    Sign Up  /////////////////////////////////////////////////////////////*/
 
+
+.fieldMargin
+{
+  margin-bottom:32px;
+}
+.fName
+{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  margin-left: 15%;
+  margin-top: 30px;
+}
+
+/*///////////////////////////////
+  
+                                    checkout  /////////////////////////////////////////////////////////////*/
+
+.panel-body
+{
+  padding-left: 40px;
+}
+.fa-cloud-download
+{
+  margin-left: 5px;
+}
+.pdftext
+{
+  margin-right: 24px;
+  color: #24c2ad;
+}

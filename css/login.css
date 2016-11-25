@@ -1,6 +1,7 @@
 body
 {
   background-image: url('../img/bg.jpg');
+   background-size: cover;
  
 }
 
@@ -8,4 +9,9 @@ body
 {
  background-color: transparent;
 
+}
+
+.navbar-nav>li>a {
+ color: #ffffff !important;
+ padding: 9px 40.5px 8px 40.5px;
 }
