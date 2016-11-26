@@ -63,12 +63,12 @@
 
 			<section class="text-center col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-8 col-lg-offset-3 col-lg-6  col-lg-offset-3 onbordind-content">
 
-				<i class="fa fa-times pull-right cross-icon" aria-hidden="true"></i><br><br>
+				<i class="fa fa-times pull-right cross-icon" aria-hidden="true"></i>
 
 			
-				  <span class="questionNo">2/8</span><br>
+				  <h1 class="questionNo">2/8</h1><br>
 
-				<span class="onbordind-heading">Which best fits for you?</span><br /><br />
+				<span class="onbordind-heading">Which best fits for you?</span>
 
 				<div class="row">
 	                 <button class="btn btn-default navbar-btn optionbtnColor butn
@@ -120,7 +120,7 @@
                  
               
 			   <div class="row">
-					<button class="btn btn-default login-btn col-xs-12 nextbtnMargin">Next 
+					<button class="btn btn-default login-btn col-xs-12 nextbtnMargin" type="button">Next 
 						<span class="arrow"> &#x2799;</span>
 						<!--i class="fa fa-arrow-right arrow" aria-hidden="true"></i-->
 					</button>
@@ -147,8 +147,8 @@
 
 		<script>
 		$(document).ready(function(){
-		    $("button").click(function(){
-		        $('button').removeClass("butn-active");
+		    $(".butn").click(function(){
+		        $('.butn').removeClass("butn-active");
 		        $(this).toggleClass("butn-active");
 		    });
 		});

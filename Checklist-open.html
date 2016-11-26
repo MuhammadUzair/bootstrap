@@ -110,7 +110,12 @@
 									      <span class="pdftext">Read Cheat Sheet</span><br /><br />
 
 
-									        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et suscipit justo, vel tincidunt nisi. Curabitur maximus justo quis justo eleifend molestie. Morbi mattis auctor dapibus. Integer aliquet sapien quis orci fringilla, condimentum laoreet augue ultrices. Nunc vel sagittis est. Aliquam ultrices neque ut est interdum,vitae aliquet <span class="primarycolorText">diam</span> consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed viverra odio in dui accumsan tempus. Morbi aliquam ultricies elit sit amet dictum. Duis ante <span class="primarycolorText">magna</span>, ornare quis velit et, aliquet tempus neque. Integer lobortis velit condimentum lorem vestibulum, a mattis libero cursus. Ut sit amet maximus tortor, sed feugiat neque. Donec in massa non sem accumsan facilisis in in lectus. Fusce nec vestibulum felis. Donec interdum lacus sit amet sem cursus, imperdiet convallis lorem lacinia. Maecenas finibus nisl scelerisque, ultrices felis nec, ultricies ligula.</p>		
+									        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et suscipit justo, vel tincidunt nisi. Curabitur maximus justo quis justo eleifend molestie. Morbi mattis auctor dapibus. Integer aliquet sapien quis orci fringilla, condimentum laoreet augue ultrices. Nunc vel sagittis est. Aliquam ultrices neque ut est interdum,
+									        	<a href="#"  class="tool" data-placement="top" rel="tooltip" title="diam (noun)
+
+	    	definition goes here when hover cursor over bolded words." class="example">
+
+									    	vitae</a> aliquet <span class="primarycolorText">diam</span> consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed viverra odio in dui accumsan tempus. Morbi aliquam ultricies elit sit amet dictum. Duis ante <span class="primarycolorText">magna</span>, ornare quis velit et, aliquet tempus neque. Integer lobortis velit condimentum lorem vestibulum, a mattis libero cursus. Ut sit amet maximus tortor, sed feugiat neque. Donec in massa non sem accumsan facilisis in in lectus. Fusce nec vestibulum felis. Donec interdum lacus sit amet sem cursus, imperdiet convallis lorem lacinia. Maecenas finibus nisl scelerisque, ultrices felis nec, ultricies ligula.</p>		
 
 									        
 									        <hr >
@@ -255,10 +260,13 @@
 		                 	<strong> What other “real life” questions do you have? Please list any questions or subject areas that you are looking for information.</strong></p>
 
 		                 	<div class="row">
-		              
-		                 	<div class="typingBox col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				                 	Begin typing…
-				                 </div><br /><br />
+
+							<div class="form-group">
+
+      						<textarea class="form-control  form-control2 typingBox col-xs-12 col-sm-12 col-md-12 col-lg-12" rows="10" id="comment" placeholder="Begin typing…"></textarea>
+      						
+   							 </div>
+
 
 		                 	</div><!--row end -->
 
@@ -277,20 +285,23 @@
 
 					<footer class="text-center col-lg-12">
 						<span class="footer-heading">ZINC</span><br> Copyright 2016
-		                </footer>
+		               </footer>
 
           </div><!--row end -->
-
-
-
 
 </div><!-- /.container-fluid --> 
 
 
+<style>
 
+
+</style>
 
 <!-- collapse panel script --> 
 <script type="text/javascript">
+
+
+ /* collapse */
 
 
 function toggleChevron(e) {
@@ -301,7 +312,7 @@ function toggleChevron(e) {
 }
 $('#accordion').on('hidden.bs.collapse', toggleChevron);
 
- /* sab heading show hide  */
+ /* sub heading show hide  */
 
 $(document).ready(function(){
 		    $(".select").click(function(){
@@ -309,6 +320,16 @@ $(document).ready(function(){
 		        $(this).toggleClass("hide");
 		    });
 		});
+
+/* Tool Tip  */
+/*
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});*/
+
+
+$('.example').tooltip();
+
 		</script>
 
 

@@ -16,24 +16,27 @@ body{
  color: #ffffff !important;
 }
 
+
 .logoFont
 {
   font-size: 22px;
   color:#ffffff !important;
   padding: 20px 0  22.6px 60px;
 
-
 }
 
 
-.butn-active{ background-color: #24c2ad !important;}
+.butn-active{ 
+  background-color: #24c2ad !important;
+  color: #ffffff !important;
+}
 
 .whitetext{color: #ffffff !important;background-color: black !important;}
 
 .right-nav{padding-top: 20px;}
 
 .primarycolorText{color: #24c2ad !important;}
-
+/*
 .beta
 {
 
@@ -45,6 +48,20 @@ body{
   font-stretch: normal;
   letter-spacing: 0.2px;
   color: #24c2ad;
+
+}*/
+.beta
+{
+   margin-left: -2%;
+   font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.2px;
+  color: #24c2ad;
+  position: absolute;
+  top: 38px;
+  
 }
 .beta:hover
 {
@@ -147,7 +164,6 @@ body{
 }
 .sign-up-content
 {
-  box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
   font-size: 24px;
   background-color: #ffffff;
   color: #4a4a4a;
@@ -185,12 +201,20 @@ body{
   color: #cccccc;
   margin-top: 25px;
   margin-right: 10.5px;
+
 }
 
 .questionNo
 {
-  margin-top: 54px;
 
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  margin-top: 34px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 .optionbtn
 {
@@ -277,7 +301,7 @@ footer
 }
 .helpFooter
 {
-  margin-top: 667px;
+  margin-top: 669px;
 
 }
 .help-heading
@@ -323,15 +347,17 @@ footer
 {
  background-color: #24c2ad !important;
  outline: none !important;
-  color: #4a4a4a !important;
+  color: #ffffff !important;
+   box-shadow: none  !important;
 }
 .butn:focus
 {
  background-color: #24c2ad !important;
  outline: none;
-  color: #4a4a4a !important;
-  box-shadow: none;
-  border:2px solid transparent;
+ color: #4a4a4a !important;
+ box-shadow: none  !important;
+ color: #ffffff !important;
+
 }
 
 
@@ -359,6 +385,18 @@ footer
 {
   background-color: #24c2ad;
   color: #ffffff;
+}
+.login-btn:active
+{
+  background-color: #24c2ad !important;
+  color: #ffffff !important;
+  outline: none !important;
+}
+.login-btn:focus
+{
+  background-color: #24c2ad !important;
+  color: #ffffff;
+  outline: none !important;
 }
 .arrow
 {
@@ -393,7 +431,7 @@ footer
 }
 
 
-/*/////////////////////////////// 70px 22px 30px;
+/*/////////////////////////////// 
                                      change password    /////////////////////////////////////////////////////////////*/
 
 
@@ -603,8 +641,8 @@ footer
 
 .typingBox
 {
-   height:30%; 
-   border-radius: 2px;
+  height:30%; 
+  border-radius: 2px;
   background-color: #ffffff;
   border: solid 1px #dddddd;
   padding: 25px;
@@ -681,6 +719,13 @@ footer
   text-decoration: none;
   text-decoration: none; 
 }
+#form{margin-bottom: -15px;}
+#form2{margin-bottom: -15px;}
+
+.passText
+{
+  margin-top: 27px;
+}
 
 
 /*///////////////////////////////
@@ -690,6 +735,7 @@ footer
 
 .login-heading
 {
+  display: block;
   font-size: 28px;
   font-weight: normal;
   font-style: normal;
@@ -698,6 +744,8 @@ footer
   text-align: center;
   color: #4a4a4a;
   margin-top: 48px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 .login-field
@@ -713,12 +761,17 @@ footer
 
 .form-control
 {
-  border-radius: 4px;
+  border-radius: 4px !important;
   background-color: #ffffff;
   border: solid 1.5px #4a4a4a;
   height: 50px;
-  margin-top: 10px;
 
+}
+.form-control2
+{
+  background-color: #ffffff;
+  border: none !important;
+  height: 50px;
 
 }
 .fieldMargin
@@ -734,9 +787,7 @@ footer
 
 }
 .forgotSubHeading
-{
- 
-   
+{   
    margin-top: 12px;
    margin-bottom: 20px;
   font-size: 16px;
@@ -769,9 +820,7 @@ footer
   margin-left: 17%;
   margin-top: 41px;
 }
-
-
-.passText
+label
 {
   font-size: 14px;
   font-weight: normal;
@@ -780,19 +829,21 @@ footer
   letter-spacing: 0.4px;
   color: #4a4a4a;
   margin-left: 17%;
-  margin-top: 27px;
-  
+ 
 }
+
+
 .forgetLink
 {
-   font-size: 14px;
+  font-size: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 0.4px;
-  margin-left: 15%;
+  margin-left: 16%;
   margin-bottom: 46px;
-  margin-top: 12px;
+  margin-top: -5px;
+  text-decoration: underline;
 }
 
 .SignmeMargin
@@ -817,11 +868,11 @@ footer
   color: #4a4a4a;
   margin-top: 48px;
 }
-
+/*
 .fieldMargin
 {
   margin-bottom:32px;
-}
+}*/
 .fName
 {
   font-size: 14px;
@@ -833,6 +884,7 @@ footer
   margin-left: 15%;
   margin-top: 30px;
 }
+/*
 .firstname
 {
   font-size: 14px;
@@ -855,7 +907,7 @@ footer
   margin-left: 17%;
   margin-top: 32px;
 }
-.f
+*/
 /*///////////////////////////////
   
                                     checkout  /////////////////////////////////////////////////////////////*/
@@ -872,4 +924,23 @@ footer
 {
   margin-right: 24px;
   color: #24c2ad;
+}
+.tooltip-inner {
+  background-color: #ffffff;
+  color: #4a4a4a;
+  }
+.tool
+{
+  text-decoration: none;
+    color: #4a4a4a;
+}
+.tool:hover
+{
+  text-decoration: none;
+    color: #4a4a4a;
+}
+.tool:active
+{
+  text-decoration: none;
+    color: #4a4a4a;
 }
