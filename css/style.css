@@ -24,20 +24,6 @@ body{
 
 
 }
-.butn{
-  min-width: 150px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.butn:hover
-{
-  color: #4a4a4a !important;
-  background-color: #DDFFFB !important;
-  }
-.butn:active
-{
- background-color: #24c2ad !important;
-}
 
 
 .butn-active{ background-color: #24c2ad !important;}
@@ -65,6 +51,42 @@ body{
   color: #24c2ad;
   text-decoration: none;
 }
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
+ .navbar-default .navbar-nav>.open>a:hover 
+{
+  background-color: transparent;
+    font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.4px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
+ .navbar-default .navbar-nav>.open>a:hover
+  {
+     font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+
+  }
+.dropdown-menu 
+{
+  -webkit-box-shadow: none;
+   }
+.dropdown-menu>li>a
+{
+   font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+}
+
 
 .sign-up
 {
@@ -125,12 +147,11 @@ body{
 }
 .sign-up-content
 {
-
-  margin-top: 10px;
   box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
   font-size: 24px;
   background-color: #ffffff;
   color: #4a4a4a;
+  margin-top: 45px;
 }
 .content-heading
 {
@@ -143,8 +164,6 @@ body{
   text-align: center;
   color: #4a4a4a;
 
-
-
 }
 .onbordind-heading
 {
@@ -154,7 +173,7 @@ body{
   font-stretch: normal;
   line-height: 1.25;
   letter-spacing: -0.5px;
- margin-bottom: 40px;
+  margin-bottom: 40px;
   color: #4a4a4a;
 
 
@@ -170,7 +189,7 @@ body{
 
 .questionNo
 {
-  margin-top: 34px;
+  margin-top: 54px;
 
 }
 .optionbtn
@@ -237,7 +256,7 @@ footer
 }
 .loginmarg
 {
-  margin-top: 120px;
+  margin-top: 303px;
 
 }
 .forgotmargin
@@ -253,7 +272,23 @@ footer
 
 .onbordingFooter
 {
-  margin-top: 110px;
+  margin-top: 76px;
+
+}
+.helpFooter
+{
+  margin-top: 667px;
+
+}
+.help-heading
+{
+ font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.7px;
+  color: #4a4a4a;
+
 
 }
 /*///////////////////////////////
@@ -270,20 +305,36 @@ footer
   background-color: #ffffff;
   color: #4a4a4a;
 }
+
+.butn{
+  min-width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+   color: #4a4a4a !important;
+}
 .butn:hover
 {
-  background-color: #ddfffb;
-  border: solid 2px #24c2ad;
-  color: black !important;
-
-}
-.btn-hover
+  color: #4a4a4a !important;
+  background-color: #DDFFFB !important;
+   outline: none;
+  }
+.butn:active
 {
-  background-color: #ddfffb;
-  border: solid 2px #24c2ad;
-  color: black !important;
-
+ background-color: #24c2ad !important;
+ outline: none !important;
+  color: #4a4a4a !important;
 }
+.butn:focus
+{
+ background-color: #24c2ad !important;
+ outline: none;
+  color: #4a4a4a !important;
+  box-shadow: none;
+  border:2px solid transparent;
+}
+
+
 .btn-selected
 {
   background-color: #24c2ad;
@@ -364,9 +415,27 @@ footer
 .WithoutBorder
 {
 
-  margin-top: 124px;
+  margin-top: 92px;
   font-size: 18px;
-  background-color: #ffffff;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -0.4px;
+   color: #4a4a4a;
+
+
+}
+.emailUs
+{
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: -0.4px;
+  color: #4a4a4a;
 
 
 }
@@ -478,8 +547,8 @@ footer
   font-stretch: normal;
   line-height: 1.43;
   color: #4a4a4a;
-  margin-top: 60px;
-  padding: 5px;
+  margin-top: 50px;
+  padding: 22px 17px 18px 18px;
 }
 .friendHeading
 {
@@ -505,6 +574,9 @@ footer
 .hrCheck
 {
   margin-top: 207px;
+  margin-left: 17%;
+  width: 50%;
+
 }
 
 .queryBox
@@ -516,12 +588,19 @@ footer
   margin-top: 30px;
   padding: 38px;
 
+
 }
+
 .userQueryHeading
 {
   font-size: 20px;
-
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #4a4a4a;
 }
+.userQueryMrgin{ margin-top: 20px;}
+
 .typingBox
 {
    height:30%; 
@@ -569,14 +648,40 @@ footer
   border: solid 1px #dddddd;
 }
 
-.hide
+.subheading
 {
-  display: none;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #4a4a4a;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
-.show
+.subheading:hover
 {
-  display: inline;
+ 
+  color: #4a4a4a;
+  text-decoration: none;
+  }
+.subheading:active
+{
+ 
+  color: #4a4a4a;
+  text-decoration: none;
 }
+.subheading:visited
+ {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #4a4a4a;
+  text-decoration: none;
+  text-decoration: none; 
+}
+
 
 /*///////////////////////////////
   
@@ -615,6 +720,10 @@ footer
   margin-top: 10px;
 
 
+}
+.fieldMargin
+{
+  margin-bottom: 100px;
 }
 
 .forgot-heading
@@ -657,20 +766,10 @@ footer
   font-stretch: normal;
   letter-spacing: 0.4px;
   color: #4a4a4a;
-  margin-left: 15%;
+  margin-left: 17%;
   margin-top: 41px;
 }
-.signupText2
-{
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.4px;
-  color: #4a4a4a;
-  margin-left: 15%;
- 
-}
+
 
 .passText
 {
@@ -680,7 +779,7 @@ footer
   font-stretch: normal;
   letter-spacing: 0.4px;
   color: #4a4a4a;
-  margin-left: 15%;
+  margin-left: 17%;
   margin-top: 27px;
   
 }
@@ -700,10 +799,24 @@ footer
 {
    margin-top: 70px;
 }
+.headingMargin
+{
+ margin-top: 70px;
+}
 /*///////////////////////////////
   
                                     Sign Up  /////////////////////////////////////////////////////////////*/
-
+.signUp-heading
+{
+  font-size: 28px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 48px;
+}
 
 .fieldMargin
 {
@@ -720,7 +833,29 @@ footer
   margin-left: 15%;
   margin-top: 30px;
 }
-
+.firstname
+{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  margin-top: 30px;
+  margin-left: 17%;
+}
+.LastName
+{
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  margin-left: 17%;
+  margin-top: 32px;
+}
+.f
 /*///////////////////////////////
   
                                     checkout  /////////////////////////////////////////////////////////////*/
