@@ -12,9 +12,6 @@ body{
  
 
 }
-.navbar-nav>li>a {
- color: #ffffff !important;
-}
 
 
 .logoFont
@@ -69,20 +66,16 @@ body{
   text-decoration: none;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
- .navbar-default .navbar-nav>.open>a:hover 
+ .navbar-default .navbar-nav>.open>a:hover ,a:active
 {
   background-color: transparent;
-    font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: -0.4px;
+    font-size: 16px;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
- .navbar-default .navbar-nav>.open>a:hover
+ .navbar-default .navbar-nav>.open>a:hover,a:active
   {
-     font-size: 14px;
+     font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -94,7 +87,7 @@ body{
 {
   -webkit-box-shadow: none;
    }
-.dropdown-menu>li>a
+.dropdown-menu>li>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>li>a:active
 {
    font-size: 14px;
   font-weight: normal;
@@ -105,7 +98,8 @@ body{
 }
 
 
-.sign-up
+
+.sign-up,.sign-up:hover,.sign-up:focus,.sign-up:active
 {
   border-radius: 2px;
   border: solid 2px #24c2ad;
@@ -133,6 +127,13 @@ body{
   text-align: center;
 
 
+}
+.navbar-nav>li>a,.navbar-nav>li>a:hover,.navbar-nav>li>a:focus,.navbar-nav>li>:active {
+ color: #ffffff !important;
+   font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 .main-content
@@ -301,7 +302,7 @@ footer
 }
 .helpFooter
 {
-  margin-top: 669px;
+  margin-top: 350px;
 
 }
 .help-heading
@@ -380,24 +381,18 @@ footer
   border: none; 
   border-radius: 0px;
   padding: 21px 0 20px 0; 
+  
 }
-.login-btn:hover
-{
-  background-color: #24c2ad;
-  color: #ffffff;
-}
-.login-btn:active
+
+.login-btn:hover,.login-btn:active,.login-btn:focus
 {
   background-color: #24c2ad !important;
   color: #ffffff !important;
   outline: none !important;
+  box-shadow: none !important;
+
 }
-.login-btn:focus
-{
-  background-color: #24c2ad !important;
-  color: #ffffff;
-  outline: none !important;
-}
+
 .arrow
 {
   width: 24px;
@@ -774,17 +769,12 @@ footer
   height: 50px;
 
 }
-.fieldMargin
-{
-  margin-bottom: 100px;
-}
 
 .forgot-heading
 {
    /*margin-top: 48px !important;*/
    font-size: 28px;
   
-
 }
 .forgotSubHeading
 {   
@@ -804,6 +794,7 @@ footer
 {
   color: #ffffff;
   margin-left: 40%;
+  margin-bottom: 12px;
 }
 .forgetLinks:hover
 {
@@ -867,47 +858,22 @@ label
   text-align: center;
   color: #4a4a4a;
   margin-top: 48px;
+  margin-bottom: 41px;
 }
-/*
-.fieldMargin
+
+#emailMargin
 {
-  margin-bottom:32px;
-}*/
-.fName
-{
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.4px;
-  color: #4a4a4a;
-  margin-left: 15%;
-  margin-top: 30px;
+  margin-top: 41px;
 }
-/*
-.firstname
+
+.bottomMargin
 {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.4px;
-  color: #4a4a4a;
-  margin-top: 30px;
-  margin-left: 17%;
+  margin-bottom: 10px;
 }
-.LastName
+.topMargin
 {
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.4px;
-  color: #4a4a4a;
-  margin-left: 17%;
   margin-top: 32px;
 }
-*/
 /*///////////////////////////////
   
                                     checkout  /////////////////////////////////////////////////////////////*/
