@@ -12,126 +12,97 @@
 </head>
 
 <body>
-
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navigationbar">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-					aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-				<a class="navbar-brand logoFont" href="#">ZINC</a><br>
-				<a class="pull-left beta" href="#">BETA</a>
-			</div>
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle right-nav logInNav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login</span></a>
-
-				
-					</li>
-
-					<li>
-						<a href="#" class="primarycolorText sign-up">Sign up </span></a>
-					</li>
-				</ul>
-			</div>
-			<!-- /.navbar-collapse -->
+				aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand logoFont" href="#">ZINC</a><br>
+			<a class="pull-left beta" href="#">BETA</a>
 		</div>
-		<!-- /.container-fluid -->
-	</nav>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
-	<div class="container-fluid">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle right-nav logInNav" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login</span></a>
+
+				</li>
+				<li>
+					<a href="#" class="primarycolorText sign-up">Sign up </span></a>
+				</li>
+			</ul>
+		</div>
+		<!-- /.navbar-collapse -->
+	</div>
+	<!-- /.container-fluid -->
+</nav>
 
 
-		<div class="row">
 
-			<section class="text-center col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-8 col-lg-offset-3 col-lg-6 col-lg-offset-3 sign-up-content">
 
-				<i class="fa fa-times pull-right cross-icon" aria-hidden="true"></i>
+<div class="container-fluid">
+
+
+	<div class="row">
+
+		<section class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6 sign-up-content">
+
+			<i class="fa fa-times pull-right cross-icon" aria-hidden="true"></i>
 
 			
 
-				<h1 class="signUp-heading">Sign Up</h2>
+			<h1 class="signUp-heading">Sign Up</h2>
 
- 		    <form id="form2">
-			   
+				<form class="frmMargin">
 
-			    <div class="form-group">
-				   <div class="row">
-						<label class="pull-left bottomMargin">First Name</label>
-					</div>	<!--row end -->
-	
-						<div class="row">
-							<div class="input-group col-xs-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<input type="text" class="form-control" placeholder="Layla">
-						   </div>
-						</div>	<!--row end -->
-				 </div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+							<div class="form-group">
+								<label for="Email"  class="form-label fname">First Name</label>
+								<input type="text" class="form-control login-field" id="exampleInputEmail1" placeholder="Layla">
+							</div>
 
+							<div class="form-group">
+								<label for="Email"  class="form-label topMargin">Last Name</label>
+								<input type="text" class="form-control login-field" id="exampleInputEmail1" placeholder="Evan">
+							</div>
 
 
 
-				
+							<div class="form-group">
+								<label for="Email"  class="form-label topMargin">Email</label>
+								<input type="email" class="form-control login-field" id="exampleInputEmail1" placeholder="XXXXX@XXX.com">
+							</div>
+							<div class="form-group">
+								<label for="Password" class="form-label topMargin">Password</label>
+								<input type="password" class="form-control login-field" id="exampleInputPassword1" placeholder="password">
+							</div>
 
-				<div class="form-group">
-				   <div class="row">
-						<label class="pull-left bottomMargin topMargin">Last Name</label>
-					</div>	<!--row end -->
-	
-						<div class="row">
-							<div class="input-group col-xs-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<input type="text" class="form-control" placeholder="Evan">
-						   </div>
-						</div>	<!--row end -->
-				     </div>
+						</div><!--col end -->
+					</div><!--row end -->
 
 
-				
-			    <div class="form-group">
-				   <div class="row">
-						<label class="pull-left bottomMargin topMargin">Email</label>
-					</div>	<!--row end -->
+					<div class="row">
+						<!--div class="col-xs-12 col-sm-12 col-lg-12"-->
 
-				
-						<div class="row">
-							<div class="input-group col-xs-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<input type="text" class="form-control" placeholder="XXXXX@XXX.com">
-						   </div>
-						</div>	<!--row end -->
-				     </div>
+						<button type="button" class="btn btn-default signup-btn col-xs-12 col-sm-12 col-lg-12 SignmeMargin">
+							Sign me up!
+						</button>
+
+					</div><!--button end -->
+
+				</form>
 
 
-				 <div class="form-group">
-				   <div class="row">
-						<label class="pull-left bottomMargin topMargin">Password</label>
-					</div>	<!--row end -->
-			
-						<div class="row">
-							<div class="input-group col-xs-offset-2 col-xs-8 col-sm-8 col-md-8 col-lg-8">
-							<input type="password" class="form-control" placeholder="********">
-						   </div>
-						</div>	<!--row end -->
-				     </div>
-
-
-				     <div class="form-group">
-						<div class="row">
-							<button class="btn btn-default login-btn col-xs-12 SignmeMargin" type="button">Sign me up!
-							</button>
-					    </div><!--row end -->
-					 </div>
-
-			</form>
 
 
 
@@ -144,7 +115,7 @@
 		<div class="row">
 
 			<footer class="text-center col-lg-12 SignmeFooter">
-				<span class="footer-heading">ZINC</span><br> Copyright 2016
+				<span class="footer-heading">ZINC</span>Copyright 2016
 			</footer>
 
 		</div>

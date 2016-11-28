@@ -1,20 +1,17 @@
 body{
-  
-    font-family: Arial, sans-serif,Calibri, Candara, Segoe, 'Segoe UI', Optima;
+
+  font-family: Arial, sans-serif,Calibri, Candara, Segoe, 'Segoe UI', Optima;
 }
-.navbar
+.navigationbar
 {
   background-color: #4a4a4a;
   color: #ffffff;
   border: solid 0.5px #c7c7c7;
   border: none;
   border-radius: 0;
- 
-
 }
 
-
-.logoFont
+.logoFont,.logoFont:hover,.logoFont:focus,.logoFont:active
 {
   font-size: 22px;
   color:#ffffff !important;
@@ -22,8 +19,7 @@ body{
 
 }
 
-
-.butn-active,.butn-active:hover,.butn-active:active,.butn-active:focus{ 
+.butn-active,.butn-active:hover,.butn-active:focus,.butn-active:active{ 
   background-color: #24c2ad !important;
   color: #ffffff !important;
   outline: none !important;
@@ -31,73 +27,23 @@ body{
 
 .whitetext{color: #ffffff !important;background-color: black !important;}
 
-.right-nav{padding-top: 20px;}
 
 .primarycolorText{color: #24c2ad !important;}
-/*
-.beta
-{
 
-  margin-left: 69px;
-   margin-top: -10px;
-   font-size: 10px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.2px;
-  color: #24c2ad;
-
-}*/
-.beta
+.beta,.beta:hover,.beta:focus,.beta:active
 {
-   margin-left: -2%;
-   font-size: 10px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.2px;
-  color: #24c2ad;
-  position: absolute;
-  top: 38px;
-  
+ margin-left: -2%;
+ font-size: 10px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ letter-spacing: 0.2px;
+ color: #24c2ad;
+ position: absolute;
+ top: 38px;
+ text-decoration: none;
+
 }
-.beta:hover
-{
-  color: #24c2ad;
-  text-decoration: none;
-}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
- .navbar-default .navbar-nav>.open>a:hover ,a:active
-{
-  background-color: transparent;
-    font-size: 16px;
-}
-
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus,
- .navbar-default .navbar-nav>.open>a:hover,a:active
-  {
-     font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.43;
-  letter-spacing: 0.2px;
-
-  }
-.dropdown-menu 
-{
-  -webkit-box-shadow: none;
-   }
-.dropdown-menu>li>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>li>a:active
-{
-   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.43;
-  letter-spacing: 0.2px;
-}
-
 
 
 .sign-up,.sign-up:hover,.sign-up:focus,.sign-up:active
@@ -105,36 +51,30 @@ body{
   border-radius: 2px;
   border: solid 2px #24c2ad;
   margin-top: 15px;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
   height: 40px;
   text-align: center;
   letter-spacing: -0.4px;
   color: #24c2ad;
 
 }
-.logInNav
+.logInNav,.logInNav:hover.logInNav:focus,.logInNav:active
 {
 
-   
-   margin-top: 15px;
-   font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  height: 40px;
-  text-align: center;
+
+ margin-top: 15px;
+ font-size: 18px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ height: 40px;
+ background-color: transparent !important;
+ text-align: center;
 
 
-}
-.navbar-nav>li>a,.navbar-nav>li>a:hover,.navbar-nav>li>a:focus,.navbar-nav>li>:active {
- color: #ffffff !important;
-   font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
 }
 
 .main-content
@@ -151,7 +91,7 @@ body{
 {
 
   margin-top: 50px;
-   box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
+  box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
   font-size: 24px;
   background-color: #ffffff;
   color: #4a4a4a;
@@ -173,36 +113,37 @@ body{
 }
 .content-heading
 {
-   font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: -0.5px;
-  text-align: center;
-  color: #4a4a4a;
+ font-size: 24px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.25;
+ letter-spacing: -0.5px;
+ text-align: center;
+ color: #4a4a4a;
 
 }
 .onbordind-heading
 {
-   font-size: 24px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: -0.5px;
-  margin-bottom: 40px;
-  color: #4a4a4a;
+ font-size: 24px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.25;
+ letter-spacing: -0.5px;
+ margin-bottom: 40px;
+ color: #4a4a4a;
 
 
 
 }
-.cross-icon
+.cross-icon,.cross-icon:hover,.cross-icon:active,.cross-icon:focus,.cross-icon:link,.cross-icon:visited
 {
   font-size: 12px;
   color: #cccccc;
   margin-top: 25px;
   margin-right: 10.5px;
+  text-decoration: none;
 
 }
 
@@ -239,14 +180,14 @@ body{
 }
 .skip,.skip:hover,.skip:focus,.skip:active
 {
-   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: -0.3px;
-  color: #4a4a4a;
-  text-decoration: underline;
-  margin-bottom: 15px;
+ font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ letter-spacing: -0.3px;
+ color: #4a4a4a;
+ text-decoration: underline;
+ margin-bottom: 15px;
 
 
 }
@@ -272,8 +213,8 @@ footer
 
 
 .footer-heading{
-   font-size: 16px;
-   display: block;
+ font-size: 16px;
+ display: block;
 
 }
 .loginmarg
@@ -305,18 +246,18 @@ footer
 .help-heading
 {
  font-size: 28px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.7px;
-  color: #4a4a4a;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ letter-spacing: 0.7px;
+ color: #4a4a4a;
 
 
 }
 /*///////////////////////////////
  
  
-                                    onbordind page    /////////////////////////////////////////////////////////////*/
+onbordind page    /////////////////////////////////////////////////////////////*/
 
 .onbordind-content
 {
@@ -333,20 +274,21 @@ footer
   margin-top: 10px;
   margin-bottom: 10px;
   display: block;
-   color: #4a4a4a !important;
+  color: #4a4a4a !important;
+  min-width: 170px;
 }
 .butn:hover
 {
   color: #4a4a4a !important;
   background-color: #DDFFFB !important;
-   outline: none;
-  }
+  outline: none;
+}
 .butn:active
 {
  background-color: #24c2ad !important;
  outline: none !important;
-  color: #ffffff !important;
-   box-shadow: none  !important;
+ color: #ffffff !important;
+ box-shadow: none  !important;
 }
 .butn:focus
 {
@@ -358,6 +300,12 @@ footer
 
 }
 
+.butn-hover
+{
+  color: #4a4a4a !important;
+  background-color: #DDFFFB !important;
+  outline: none;
+}
 
 .btn-selected
 {
@@ -366,7 +314,7 @@ footer
   color: black !important;
 
 }
-.login-btn
+.login-btn,.login-btn:hover,.login-btn:active,.login-btn:focus
 {
   background-color: #24c2ad;
   font-size: 24px;
@@ -378,17 +326,33 @@ footer
   border: none; 
   border-radius: 0px;
   padding: 21px 0 20px 0; 
-  
-}
-
-.login-btn:hover,.login-btn:active,.login-btn:focus
-{
   background-color: #24c2ad !important;
   color: #ffffff !important;
   outline: none !important;
   box-shadow: none !important;
-
+  margin-top: 46px;
+  
 }
+
+.signup-btn,.signup-btn:hover,.signup-btn:active,.signup-btn:focus
+{
+  background-color: #24c2ad;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  border: none; 
+  border-radius: 0px;
+  padding: 21px 0 20px 0; 
+    background-color: #24c2ad !important;
+  color: #ffffff !important;
+  outline: none !important;
+  box-shadow: none !important;
+  
+}
+
 
 .arrow
 {
@@ -427,8 +391,30 @@ footer
   margin-top: 40px;
 }
 
+.setting-navBtn ,.setting-navBtn>li>a,.setting-navBtn>li>a:hover,.setting-navBtn>li>a:focus,.setting-navBtn>li>a:active
+{
+ box-shadow: none !important;
+ font-size: 14px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.43;
+ letter-spacing: 0.2px;
+ background: transparent !important;
+}
+
+/*
+.setting-navBtn,.setting-navBtn:hover,.setting-navBtn:active,.setting-navBtn:focus
+{
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+  background: transparent;
+}*/
 /*/////////////////////////////// 
-                                     change password    /////////////////////////////////////////////////////////////*/
+change password    /////////////////////////////////////////////////////////////*/
 
 
 .headingPading{margin-left: 30%;}
@@ -456,7 +442,7 @@ footer
   font-stretch: normal;
   line-height: 1.67;
   letter-spacing: -0.4px;
-   color: #4a4a4a;
+  color: #4a4a4a;
 
 
 }
@@ -475,7 +461,7 @@ footer
 }
 
 /*///////////////////////////////
-                                    Check-list   /////////////////////////////////////////////////////////////*/
+Check-list   /////////////////////////////////////////////////////////////*/
 
 
 .checklistContent
@@ -491,7 +477,7 @@ footer
 
 .listHeading
 {
-    font-size: 16px;
+  font-size: 16px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -501,11 +487,11 @@ footer
 .glyphicon {
   font-size: 12px;
 
-  }
-  .glyphicon,.glyphicon:focus.glyphicon:active {
+}
+.glyphicon,.glyphicon:focus.glyphicon:active {
   font-size: 12px;
 
-  }
+}
 
 
 
@@ -521,7 +507,7 @@ footer
 {
   font-size: 12px;
   color: #4a4a4a;
-    -webkit-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
@@ -529,52 +515,52 @@ footer
 .panel-default>.panel-heading
 {
 
-   background-color: #ffffff;
-   border-radius: 5px;
+ background-color: #ffffff;
+ border-radius: 5px;
 
-   
+
 }
 .main-panel
 {
 
-   background-color: #fffafa !important;   
+ background-color: #fffafa !important;   
 }
 .task
 {
-   font-size: 10px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  color: #4a4a4a;
+ font-size: 10px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ color: #4a4a4a;
 }
 .orangeborder
 {
-     border-style: solid;
-    border-left: 5px solid  #fb935c;
+ border-style: solid;
+ border-left: 5px solid  #fb935c;
 }
 .operation-icon
 {
  width: 16px;
-  height: 18px;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  color: #b2b2b2;
-  border: 2px solid #b2b2b2;
-  padding-left: 4px;
-  margin-left: 8px;
-   border-radius: 4px;
+ height: 18px;
+ font-size: 12px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ color: #b2b2b2;
+ border: 2px solid #b2b2b2;
+ padding-left: 4px;
+ margin-left: 8px;
+ border-radius: 4px;
 }
 .operation-icon2 
 {
  width: 16px;
-  height: 18px;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  color: #b2b2b2;
+ height: 18px;
+ font-size: 12px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ color: #b2b2b2;
 
 }
 
@@ -597,7 +583,7 @@ footer
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
- font-size: 14px;
+  font-size: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -621,7 +607,7 @@ footer
 
 }
 .progress{
-    border-radius: 20px;
+  border-radius: 20px;
   background-color: #ffffff;
   margin-top: 4px;
 
@@ -643,12 +629,12 @@ footer
 
 .queryBox
 {
-   border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 0 6px 15px 0 rgba(225, 225, 225, 0.64);
-  color: #4a4a4a;
-  margin-top: 30px;
-  padding: 38px;
+ border-radius: 10px;
+ background-color: #ffffff;
+ box-shadow: 0 6px 15px 0 rgba(225, 225, 225, 0.64);
+ color: #4a4a4a;
+ margin-top: 30px;
+ padding: 38px;
 
 
 }
@@ -663,17 +649,22 @@ footer
 }
 .userQueryMrgin{ margin-top: 20px;}
 
+
 .typingBox
-{
-  height:30%;
-  width: 95%; 
-  border-radius: 2px;
+{/*
+  height:30%;*/
+  width: 97%;
+  border-radius: 4px !important;
   background-color: #ffffff;
   border: solid 1px #dddddd;
   padding: 25px;
   color: #dddddd;
+  outline: none !important;
+  box-shadow: none !important;
+
 
 }
+
 .sndQueryBtn
 {
   background-color: #24c2ad;
@@ -683,10 +674,10 @@ footer
   font-stretch: normal;
   letter-spacing: 0.3px;
   color: #ffffff;
-  margin-top: -10px;
-  padding: 20px;
-  margin-left: 15px;
-  width: 95%; 
+  margin-top: -25px;
+  margin-left: 16;
+
+
 
 }
 .checklistHeading
@@ -702,13 +693,13 @@ footer
 }
 .showtask
 {
-    font-size: 10px;
+  font-size: 10px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   color: #4a4a4a;
   display: inline;
- 
+
 }
 
 .progressMargin
@@ -721,7 +712,7 @@ footer
 }
 #definitionBox
 {
-    background-color: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0 4px 8px 0 #e2e2e2;
   border: solid 1px #dddddd;
 }
@@ -739,18 +730,18 @@ footer
 }
 .subheading:hover
 {
- 
+
   color: #4a4a4a;
   text-decoration: none;
-  }
+}
 .subheading:active
 {
- 
+
   color: #4a4a4a;
   text-decoration: none;
 }
 .subheading:visited
- {
+{
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
@@ -759,18 +750,17 @@ footer
   text-decoration: none;
   text-decoration: none; 
 }
-#form{margin-bottom: -15px;}
-#form2{margin-bottom: -15px;}
 
 .passText
 {
   margin-top: 27px;
+  margin-bottom: 10px;
 }
 
 
 /*///////////////////////////////
   
-                                    Login  /////////////////////////////////////////////////////////////*/
+Login  /////////////////////////////////////////////////////////////*/
 
 
 .login-heading
@@ -793,62 +783,31 @@ footer
   border-radius: 4px;
   background-color: #ffffff;
   border: solid 1.5px #4a4a4a;
-  height: 40px;
-  margin-top: 10px;
-  margin-bottom: 27px;
-
-}
-
-.form-control
-{
-  border-radius: 4px !important;
-  background-color: #ffffff;
-  border: solid 1.5px #4a4a4a;
   height: 50px;
+  /* margin-bottom: -5px;*/
+}
 
-}
-.form-control2
-{
-  background-color: #ffffff;
-  border: none !important;
-  height: 50px;
-  margin-top: 35px;
-   margin-left: 15px;
 
-}
-textarea.form-control {
-    height: none;
-}
 
 .forgot-heading
 {
-   /*margin-top: 48px !important;*/
-   font-size: 28px;
-  
+ /*margin-top: 48px !important;*/
+ font-size: 28px;
+
 }
 .forgotSubHeading
 {   
-   margin-top: 12px;
-   margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.88;
-  letter-spacing: -0.3px;
-  text-align: center;
-  color: #4a4a4a;
+ margin-top: 12px;
+ margin-bottom: 20px;
+ font-size: 16px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: 1.88;
+ letter-spacing: -0.3px;
+ text-align: center;
+ color: #4a4a4a;
 
-}
-.forgetLinks
-{
-  color: #ffffff;
-  margin-left: 40%;
-  margin-bottom: 12px;
-}
-.forgetLinks:hover
-{
-  color: #ffffff;
 }
 .emailText
 {
@@ -858,46 +817,37 @@ textarea.form-control {
   font-stretch: normal;
   letter-spacing: 0.4px;
   color: #4a4a4a;
-  margin-left: 17%;
   margin-top: 41px;
+  margin-bottom: 10px;
 }
-label
+
+.forgetLink,.forgetLink:hover,.forgetLink:focus,.forgetLink:active
 {
   font-size: 14px;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
   letter-spacing: 0.4px;
-  color: #4a4a4a;
-  margin-left: 17%;
- 
-}
-
-
-.forgetLink
-{
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: 0.4px;
-  margin-left: 16%;
-  margin-bottom: 46px;
-  margin-top: -5px;
+  color: #24c2ad !important;
   text-decoration: underline;
 }
 
 .SignmeMargin
 {
-   margin-top: 70px;
+ margin-top: 70px;
 }
 .headingMargin
 {
  margin-top: 70px;
 }
+.frmMargin
+{
+  margin: 0px;
+}
+
 /*///////////////////////////////
   
-                                    Sign Up  /////////////////////////////////////////////////////////////*/
+Sign Up  /////////////////////////////////////////////////////////////*/
 .signUp-heading
 {
   font-size: 28px;
@@ -914,19 +864,34 @@ label
 #emailMargin
 {
   margin-top: 41px;
+  display: block;
 }
 
-.bottomMargin
+.form-label
 {
-  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+  padding: 0px !important;
+
+
 }
 .topMargin
 {
-  margin-top: 32px;
+ margin-top: 32px;
+ margin-bottom: 10px !important;
 }
+.fname
+{
+  margin-bottom: 10px !important;
+}
+
 /*///////////////////////////////
   
-                                    checkout  /////////////////////////////////////////////////////////////*/
+checkout  /////////////////////////////////////////////////////////////*/
 
 .panel-body
 {
@@ -944,19 +909,19 @@ label
 .tooltip-inner {
   background-color: #ffffff;
   color: #4a4a4a;
-  }
+}
 .tool
 {
   text-decoration: none;
-    color: #4a4a4a;
+  color: #4a4a4a;
 }
 .tool:hover
 {
   text-decoration: none;
-    color: #4a4a4a;
+  color: #4a4a4a;
 }
 .tool:active
 {
   text-decoration: none;
-    color: #4a4a4a;
+  color: #4a4a4a;
 }
