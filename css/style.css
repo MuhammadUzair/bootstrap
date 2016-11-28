@@ -23,9 +23,10 @@ body{
 }
 
 
-.butn-active{ 
+.butn-active,.butn-active:hover,.butn-active:active,.butn-active:focus{ 
   background-color: #24c2ad !important;
   color: #ffffff !important;
+  outline: none !important;
 }
 
 .whitetext{color: #ffffff !important;background-color: black !important;}
@@ -214,9 +215,9 @@ body{
   font-stretch: normal;
   line-height: 1.25;
   margin-top: 34px;
-  margin-bottom: 0px;
   padding: 0px;
 }
+
 .optionbtn
 {
 
@@ -236,7 +237,7 @@ body{
   color: #767676;
   
 }
-.skip
+.skip,.skip:hover,.skip:focus,.skip:active
 {
    font-size: 14px;
   font-weight: normal;
@@ -249,12 +250,7 @@ body{
 
 
 }
-.skip:hover
-{
- 
-  color: #4a4a4a;
 
-}
 .nextbtnMargin
 {
   margin-top: 15px;
@@ -277,6 +273,7 @@ footer
 
 .footer-heading{
    font-size: 16px;
+   display: block;
 
 }
 .loginmarg
@@ -302,7 +299,7 @@ footer
 }
 .helpFooter
 {
-  margin-top: 350px;
+  margin-top: 500px;
 
 }
 .help-heading
@@ -324,7 +321,7 @@ footer
 .onbordind-content
 {
 
-  margin-top: 30px;
+  margin-top: 34px;
   box-shadow: 0 6px 15px 0 rgba(226, 226, 226, 0.5);
   font-size: 24px;
   background-color: #ffffff;
@@ -425,6 +422,10 @@ footer
   margin-bottom: 8px;
 }
 
+.margintopOnbording
+{
+  margin-top: 40px;
+}
 
 /*/////////////////////////////// 
                                      change password    /////////////////////////////////////////////////////////////*/
@@ -480,7 +481,7 @@ footer
 .checklistContent
 {
 
-  margin-top: 20px;
+  margin-top: 56px;
   font-size: 14px;
   background-color: #ffffff;
 
@@ -497,12 +498,32 @@ footer
   color: #4a4a4a;
   margin-left: 20px;
 }
+.glyphicon {
+  font-size: 12px;
+
+  }
+  .glyphicon,.glyphicon:focus.glyphicon:active {
+  font-size: 12px;
+
+  }
+
+
+
 .glyphicon-chevron-down
 {
   font-size: 12px;
   color: #4a4a4a;
+
+
 }
 
+.glyphicon-chevron-down:active,.glyphicon-chevron-down:focus
+{
+  font-size: 12px;
+  color: #4a4a4a;
+    -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
 
 
 .panel-default>.panel-heading
@@ -541,7 +562,9 @@ footer
   font-stretch: normal;
   color: #b2b2b2;
   border: 2px solid #b2b2b2;
-  padding-left: 2px;
+  padding-left: 4px;
+  margin-left: 8px;
+   border-radius: 4px;
 }
 .operation-icon2 
 {
@@ -592,11 +615,17 @@ footer
   letter-spacing: -0.2px;
   text-align: center;
   color: #4a4a4a;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
 
 }
 .progress{
     border-radius: 20px;
   background-color: #ffffff;
+  margin-top: 4px;
+
+
 }
 .progress-bar 
 {
@@ -636,12 +665,14 @@ footer
 
 .typingBox
 {
-  height:30%; 
+  height:30%;
+  width: 95%; 
   border-radius: 2px;
   background-color: #ffffff;
   border: solid 1px #dddddd;
   padding: 25px;
   color: #dddddd;
+
 }
 .sndQueryBtn
 {
@@ -654,17 +685,20 @@ footer
   color: #ffffff;
   margin-top: -10px;
   padding: 20px;
+  margin-left: 15px;
+  width: 95%; 
 
 }
 .checklistHeading
 {
   font-size: 18px;
+  margin-right: 16px;
 }
 #checkbox
 {
-  border-radius: 4px;
+  border-radius: 4px !important;
   background-color: #ffffff;
-  border: solid 1px #4a4a4a;
+  border: solid 1px #4a4a4a !important;
 }
 .showtask
 {
@@ -673,6 +707,17 @@ footer
   font-style: normal;
   font-stretch: normal;
   color: #4a4a4a;
+  display: inline;
+ 
+}
+
+.progressMargin
+{
+  margin-top: -18px;
+}
+.taskHr{
+  margin-bottom: 14px;
+  margin-top: 15px;
 }
 #definitionBox
 {
@@ -767,7 +812,12 @@ footer
   background-color: #ffffff;
   border: none !important;
   height: 50px;
+  margin-top: 35px;
+   margin-left: 15px;
 
+}
+textarea.form-control {
+    height: none;
 }
 
 .forgot-heading
