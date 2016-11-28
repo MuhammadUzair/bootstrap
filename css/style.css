@@ -19,16 +19,17 @@ body{
 
 }
 
-.butn-active,.butn-active:hover,.butn-active:focus,.butn-active:active{ 
-  background-color: #24c2ad !important;
-  color: #ffffff !important;
-  outline: none !important;
+
+.whitetext
+{
+  color: #ffffff !important;background-color: black !important;
 }
 
-.whitetext{color: #ffffff !important;background-color: black !important;}
 
-
-.primarycolorText{color: #24c2ad !important;}
+.primarycolorText
+{
+  color: #24c2ad !important;
+}
 
 .beta,.beta:hover,.beta:focus,.beta:active
 {
@@ -159,16 +160,7 @@ body{
   padding: 0px;
 }
 
-.optionbtn
-{
 
-  border-radius: 50px;
-  border: solid 2px #565656;
-  font-size: 16px;
-  margin-bottom: 65px;
-  color: #767676;
-
-}
 .optionbtnColor
 {
 
@@ -924,4 +916,9 @@ checkout  /////////////////////////////////////////////////////////////*/
 {
   text-decoration: none;
   color: #4a4a4a;
+}
+.butn-active,.butn-active:hover,.butn-active:focus,.butn-active:active{ 
+  background-color: #24c2ad !important;
+  color: #ffffff !important;
+  outline: none !important;
 }
