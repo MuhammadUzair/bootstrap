@@ -7,13 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<!--script src='custom.js'></script-->
+	<script src='js/custom.js'></script>
 
 </head>
 
 <body>
 
-	<nav class="navbar navbar-default">
+	
+	<nav class="navbar navbar-default navigationbar">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -32,12 +33,12 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
-			<ul class="nav navbar-nav navbar-right">
+			<ul class="nav navbar-nav navbar-right navigationRight">
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle setting-navBtn" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setting</span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Change Password</a></li>
-						<li><hr></li>
+					<ul class="dropdown-menu dropNav">
+						<li><a href="#" >Change Password</a></li>
+						<li class="navHr"></li>
 						<li><a href="#">Help</a></li>
 					</ul>
 				</li>
@@ -56,20 +57,13 @@
 
 <div class="container-fluid">
 
-
 	<div class="row">
-
 		<section class=" col-xs-offset-2 col-xs-8 col-sm-8 col-md-10 col-lg-10
 		checklistContent">
-
-
+		
 		<div class="row">
 
-
 			<div class="panel-group col-xs-12 col-md-8 col-lg-8" id="accordion">
-
-
-
 
 
 				<div class="pull-right task progressMargin">
@@ -84,48 +78,62 @@
 				</div>
 
 
-
-
-
-				<span class="checklistHeading">Your Checklist</span>
-				<input type="checkbox" id="checkbox">
-				<h4 class="showtask">Show removed tasks</h4>
-
+				<h1 class="checklistHeading">Your Checklist</h1>
+				<form class="checklistForm">
+					<div class="checkbox">
+						<label class="showtask">
+							<input type="checkbox" > Show removed tasks
+						</label>
+					</div>
+				</form>
 
 				<hr class="taskHr">
 
+				<div class="panel panel-default collapseOrangeBorder">
 
-
-
-				<div class="panel panel-default orangeborder">
 					<div class="panel-heading main-panel">
-						<div class="panel-title">
-							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+						<div class="row">
+							<div class="panel-title col-xs-12">
+								<a class="accordion-toggle headingLink" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
 
-								<i class="indicator glyphicon glyphicon-chevron-down down pull-left"></i>
-								<span class="listHeading">Learn about financial status </span>					      
-							</a>
-							<span class="operation-icon pull-right">/</span>
-							<span class="glyphicon glyphicon-trash operation-icon2  pull-right"></span>			        
-						</div>
+
+
+									<i class="indicator glyphicon glyphicon-chevron-right  pull-left arrow-icon"></i>
+									<span class="listHeading">Learn about financial status </span>	
+								</a>				      
+
+								<!--span class="operation-icon pull-right">/</span-->
+
+								<form class="checklistForm2 pull-right">
+									<div class="checkbox">
+
+										<input type="checkbox" > 
+
+									</div>	
+								</form>
+								<a  href="#" class="glyphicon glyphicon-trash operation-icon2  pull-right"></a>			        
+							</div>
+						</div><!-- row end-->
+
+						
 
 					</div>
 
 					<div id="collapseOne" class="panel-collapse collapse">
-						<div class="panel-body">
+						<div class="panel-body panelBody">
 							<i class="fa fa-cloud-download primarycolorText" aria-hidden="true"></i>
 
-							<span class="pdftext">See full PDF</span>
+							<a href="#" class="pdftext">See full PDF</a>
 							<i class="fa fa-cloud-download primarycolorText" aria-hidden="true"></i>
-							<span class="pdftext">Read Cheat Sheet</span><br /><br />
+							<a href="#" class="pdftext">Read Cheat Sheet</a>
 
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et suscipit justo, vel tincidunt nisi. Curabitur maximus justo quis justo eleifend molestie. Morbi mattis auctor dapibus. Integer aliquet sapien quis orci fringilla, condimentum laoreet augue ultrices. Nunc vel sagittis est. Aliquam ultrices neque ut est interdum,
+							<p class="collapseMargin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et suscipit justo, vel tincidunt nisi. Curabitur maximus justo quis justo eleifend molestie. Morbi mattis auctor dapibus. Integer aliquet sapien quis orci fringilla, condimentum laoreet augue ultrices. Nunc vel sagittis est. Aliquam ultrices neque ut est interdum,
 								<a href="#"  class="tool" data-placement="top" rel="tooltip" title="diam (noun)
 
 								definition goes here when hover cursor over bolded words." class="example">
 
-								vitae</a> aliquet <span class="primarycolorText">diam</span> consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed viverra odio in dui accumsan tempus. Morbi aliquam ultricies elit sit amet dictum. Duis ante <span class="primarycolorText">magna</span>, ornare quis velit et, aliquet tempus neque. Integer lobortis velit condimentum lorem vestibulum, a mattis libero cursus. Ut sit amet maximus tortor, sed feugiat neque. Donec in massa non sem accumsan facilisis in in lectus. Fusce nec vestibulum felis. Donec interdum lacus sit amet sem cursus, imperdiet convallis lorem lacinia. Maecenas finibus nisl scelerisque, ultrices felis nec, ultricies ligula.</p>		
+								vitae</a> aliquet <a href="#" class="paragraph">diam</a> consequat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed viverra odio in dui accumsan tempus. Morbi aliquam ultricies elit sit amet dictum. Duis ante <a href="#" class="paragraph">magna</a>, ornare quis velit et, aliquet tempus neque. Integer lobortis velit condimentum lorem vestibulum, a mattis libero cursus. Ut sit amet maximus tortor, sed feugiat neque. Donec in massa non sem accumsan facilisis in in lectus. Fusce nec vestibulum felis. Donec interdum lacus sit amet sem cursus, imperdiet convallis lorem lacinia. Maecenas finibus nisl scelerisque, ultrices felis nec, ultricies ligula.</p>		
 
 
 								<hr >
@@ -180,22 +188,35 @@
 								</div>
 
 
-								<div class="panel panel-default">
-									<div class="panel-heading">
-										<div class="panel-title ">
-											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+								<div class="panel panel-default collapseBorder">
+									
+									<div class="panel-heading collapesheading2">
+										<div class="row">
+											<div class="panel-title col-xs-12">
 
-												<i class="indicator glyphicon glyphicon-chevron-down  pull-left"></i>
-												<span class="listHeading">Learn about financial status </span>					      
-											</a>
-											<span class="operation-icon pull-right"></span>
-											<span class="glyphicon glyphicon-trash operation-icon2  pull-right"></span>				        
-										</div>
+
+												<a class="accordion-toggle headingLink" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">											
+
+													<i class="indicator glyphicon glyphicon-chevron-right  pull-left arrow-icon"></i>
+													<span class="listHeading">Learn about financial status </span>	
+												</a>				      
+
+												<form class="checklistForm2 pull-right">
+													<div class="checkbox">
+
+														<input type="checkbox" > 
+
+													</div>	
+												</form>
+												<a  href="#" class="glyphicon glyphicon-trash operation-icon2  pull-right"></a>					        
+											</div>
+										</div><!-- row end -->
+
 
 									</div>
 									<!--div id="collapseOne" class="panel-collapse collapse in"-->
 									<div id="collapseTwo" class="panel-collapse collapse">
-										<div class="panel-body">
+										<div class="panel-body panelBody">
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 											sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -205,22 +226,35 @@
 
 
 
-								<div class="panel panel-default">
-									<div class="panel-heading">
-										<div class="panel-title">
-											<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+								<div class="panel panel-default collapseBorder">
+									<div class="panel-heading collapesheading2">
+										<div class="row">
+											<div class="panel-title col-xs-12">
 
-												<i class=" glyphicon glyphicon-chevron-down  pull-left"></i>
-												<span class="listHeading">File taxes</span>					      
-											</a>
-											<span class="operation-icon pull-right"></span>
-											<span class="glyphicon glyphicon-trash operation-icon2  pull-right"></span>			        
-										</div>
+
+												<a class="accordion-toggle headingLink" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+
+
+													<i class=" glyphicon glyphicon-chevron-right  pull-left arrow-icon"></i>
+													<span class="listHeading">File taxes</span>	
+												</a>				      
+
+												<form class="checklistForm2 pull-right">
+													<div class="checkbox">
+
+														<input type="checkbox"  > 
+
+													</div>	
+												</form>
+												<a  href="#" class="glyphicon glyphicon-trash operation-icon2  pull-right"></a>			        
+											</div>
+										</div><!-- row end -->
+										
 
 									</div>
 									<!--div id="collapseOne" class="panel-collapse collapse in"-->
 									<div id="collapseThree" class="panel-collapse collapse">
-										<div class="panel-body">
+										<div class="panel-body panelBody">
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit,
 											sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 											quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -237,44 +271,56 @@
 
 
 
-							<div class="col-xs-12  col-sm-4 col-md-2 friendsBox">
+							<div class="col-xs-12  col-sm-10 col-md-8 col-lg-2 friendsBox">
 								<h3 class="friendHeading">Tell your friends!</h3>
 								<p>If you find this helpful, tell your friends – we are early stage and growing and want to help as many people as possible!</p>
-								<i class="fa fa-facebook-official social-icon"></i>
-								<i class="fa fa-twitter-square social-icon2"></i>
 
 
-							</div><!--Tell your friends div end -->
+								<!--i class="fa fa-facebook-official social-icon"></i>
+								<i class="fa fa-twitter-square social-icon2"></i-->
 
 
-						</div><!--row end -->
-
-					</section><!--main-content section close-->
-				</div><!--row end -->
+									<a  href="#" class="fa fa-facebook-official social-icon"></a>
+									<a  href="#" class="fa fa-twitter-square social-icon2"></a>
 
 
-				<div class="row">
-
-					<hr class=" hrCheck">
-
-				</div><!--row end -->
+								</div><!--Tell your friends div end -->
 
 
-				<div class="row">
+							</div><!--row end -->
 
-					<section class=" col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-md-8 offset-4 col-lg-6  queryBox">
-						<span class="userQueryHeading">Have more questions?</span>
+						</section><!--main-content section close-->
+					</div><!--row end -->
 
-						<p class="userQueryMrgin">We are quickly building other tools to help you navigate the real world.<br /><br />
 
-							<strong> What other “real life” questions do you have? Please list any questions or<br /> subject areas that you are looking for information.</strong></p>
+					<div class="row">
 
-							<form>
+						<hr class="hrCheck col-offset-xs-2 col-xs-7 col-sm-8 col-offset-lg-4 col-lg-6">
+
+					</div><!--row end -->
+
+
+					<div class="row">
+
+						<section class="col-xs-offset-2 col-xs-9 col-sm-offset-2 col-sm-8 col-md-8-offset-4 col-lg-6  queryBox">
+
+
+							<span class="userQueryHeading">Have more questions?</span>
+
+							<p class="userQueryMrgin">
+								We are quickly building other tools to help you navigate the real world.
+
+								<strong class="quicklyText"> What other “real life” questions do you have? Please list any questions or<br>subject areas that you are looking for information.</strong>
+
+							</p>
+
+							<form class="frmMargin">
 								<div class="row">
 
-									<div class="form-group col-xs-12 col-sm-12 col-lg-12">
+									<div class="form-group col-xs-12">
 
-										<textarea class="form-control  typingBox " rows="10" id="comment" placeholder="Begin typing…"></textarea>
+
+										<input type="text" class="form-control  typingBox" rows="10" id="comment" placeholder="Begin typing…">
 
 									</div>
 
@@ -284,15 +330,37 @@
 								<div class="row">
 
 
-									<button type="button" class="btn btn-default login-btn sndQueryBtn col-xs-12 col-sm-12 col-lg-11">
+									<button type="button" class="btn btn-default sndQueryBtn col-xs-10 col-sm-12 ">
 										Send your question(s)!
 									</button>
 
-								</div><!--button end -->
+								</div><!--row end -->
 
 
 
 							</form>
+
+
+						<!--form class="frmMargin">
+							<div class="row">
+
+								<div class="form-group col-xs-12">
+
+									<textarea class="form-control  typingBox" rows="10" id="comment" placeholder="Begin typing…"></textarea>
+
+								</div>
+
+
+							</div><!--row end -->
+
+							<!--div class="row">
+
+
+								<button type="button" class="btn btn-default sndQueryBtn col-xs-11 ">
+									Send your question(s)!
+								</button>
+
+							</div><!--row end --><!--/form-->
 
 
 
@@ -317,49 +385,6 @@
 				</div><!-- /.container-fluid --> 
 
 
-				<style>
-
-
-				</style>
-
-				<!-- collapse panel script --> 
-				<script type="text/javascript">
-
-
-				/* collapse */
-
-
-				function toggleChevron(e) {
-					$(e.target)
-					.prev('.panel-heading')
-					.find("i.indicator")
-					.toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
-				}
-				$('#accordion').on('hidden.bs.collapse', toggleChevron);
-
-				/* sub heading show hide  */
-
-				$(document).ready(function(){
-					$(".select").click(function(){
-						$('p').removeClass("hide");
-						$(this).toggleClass("hide");
-					});
-				});
-
-				/* Tool Tip  */
-/*
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-});*/
-
-
-$('.example').tooltip();
-
-</script>
-
-
-
-</script>
 
 
 </body>
